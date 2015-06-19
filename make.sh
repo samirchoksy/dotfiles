@@ -4,7 +4,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_backup
-files="vimrc Rprofile"
+files="vimrc Rprofile bash_profile"
 
 # create dotfiles_backup in home directory
 echo "Creating backup of existing dotfiles in ~"
