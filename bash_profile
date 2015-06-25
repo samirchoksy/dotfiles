@@ -1,5 +1,4 @@
 export PATH="/usr/local/bin:$PATH"
 export JAVA_HOME="$(/usr/libexec/java_home)"
-export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/-k-*.pem | /usr/bin/head -1)"
-export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
-export EC2_HOME="/usr/local/Library/LinkedKegs/ec2-api-tools/jars"
+export AWS_ACCESS_KEY_ID=AKIAIB37KKUOG6NH3P2Q
+export AWS_SECRET_ACCESS_KEY=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
