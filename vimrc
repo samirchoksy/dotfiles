@@ -11,6 +11,8 @@ Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-scripts/Vim-R-plugin'
 Bundle 'scrooloose/nerdtree'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'bling/vim-airline'
 
 " R script settings
 vmap <Space> <Plug>RDSendSelection
@@ -18,8 +20,11 @@ nmap <Space> <Plug>RDSendLine
 let vimrplugin_applescript=0
 let vimrplugin_vsplit=1
 
+" YouCompleteMe (YCM) Python path
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+
 set modeline
-set tabstop=8
+set tabstop=4
 set expandtab
 set softtabstop=4
 set shiftwidth=4

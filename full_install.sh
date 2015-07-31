@@ -10,6 +10,7 @@ brew tap caskroom/versions
 brew install node
 brew install git
 brew install wget
+brew install cmake
 
 brew cask install dropbox
 brew cask install firefox
