@@ -13,6 +13,7 @@ Bundle 'vim-scripts/Vim-R-plugin'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'bling/vim-airline'
+Bundle 'jpalardy/vim-slime'
 
 " R script settings
 vmap <Space> <Plug>RDSendSelection
@@ -22,6 +23,9 @@ let vimrplugin_vsplit=1
 
 " YouCompleteMe (YCM) Python path
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+
+" set Vim-Slime variables
+let g:slime_target = "tmux"
 
 set modeline
 set tabstop=4
